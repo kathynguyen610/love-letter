@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans|Inconsolata');
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -42,6 +42,7 @@ header {
 }
 nav {
 	padding:10px;
+	padding-top:15px;
 }
 header a {
 	font-family:'Crimson Text';
@@ -60,3 +61,26 @@ h1 {
 
 }
 
+main {
+	background:#fefefe;
+	padding:2em;
+	margin:2em;
+	box-shadow: 10px 10px 10px #888888;
+}
+
+main {
+	font-family:'Inconsolata';
+	margin:10px auto;
+	transform:translateY(50px);
+	max-width:900px;
+}
+
+.mainhead {
+	display:flex;
+	justify-content:space-between;
+	padding-bottom:10px;
+}
+
+.mainhead h2 {
+	font-size:1.5em;
+}
