@@ -2,6 +2,25 @@ body {
 	display:grid;
 	grid-template-areas:
 	"nav main";
-	grid-template-columns: 30% 70%;
+	grid-template-columns: 1fr 2fr;
 	background:#008284;
+}
+nav {
+	display:flex;
+	flex-direction: column;
+	padding:10px;
+}
+a {
+	display:flex;
+	flex-direction: column;
+	color:white;
+	text-decoration:none;
+	text-align:center;
+	font-family:'Montserrat';
+
+}
+
+.material-icons {
+	color:white;
+	font-size: 5em;
 }
