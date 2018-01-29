@@ -1,9 +1,11 @@
 body {
 	display:grid;
 	grid-template-areas:
-	"nav main";
-	grid-template-columns: 1fr 2fr;
+	"nav main .";
+	grid-template-columns: 1fr 3fr 1fr;
 	background:#008284;
+
+	font-family:'Space Mono';
 }
 nav {
 	display:flex;
@@ -13,14 +15,79 @@ nav {
 a {
 	display:flex;
 	flex-direction: column;
+	justify-content:center;
 	color:white;
 	text-decoration:none;
 	text-align:center;
-	font-family:'Montserrat';
+	text-transform: uppercase;
+	margin:2em;
 
 }
 
 .material-icons {
 	color:white;
 	font-size: 5em;
+}
+
+main {
+	background:#D4D0C7;
+	width:70%;
+	margin:2em auto;
+	max-width:900px;
+}
+
+.side {
+	display:flex;
+	flex-direction:column;
+	text-align:center;
+	font-size:1em;
+	margin:1em;
+}
+.side .material-icons {
+	margin-top:40px;
+	font-size:3em;
+	color:#000;
+}
+
+.emailtop {
+	background:#2C568D;
+	padding:4px;
+	margin:2px;
+	color:white;
+	display:flex;
+	justify-content:space-between;
+}
+
+.emailicons .material-icons{
+	font-size:1em;
+	padding:2px;
+	background:#D4D0C7;
+	color:black;
+	margin:2px;
+}
+
+.content {
+	display:flex;
+	justify-content:space-around;
+	padding:10px;
+
+}
+
+article {
+	background:#f6f6f6;
+	padding:1em;
+	margin:1em;
+}
+
+.blinking-cursor {
+ animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
 }
