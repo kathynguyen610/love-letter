@@ -1,0 +1,7 @@
+body {
+	display:grid;
+	grid-template-areas:
+	"nav main";
+	grid-template-columns: 30% 70%;
+	background:#008284;
+}
