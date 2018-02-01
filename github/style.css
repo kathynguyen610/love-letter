@@ -30,7 +30,7 @@ html{
 	height:100%;
 }
 body {
-	background:linear-gradient(45deg, #000, #fff);
+	background:linear-gradient(45deg, #f299f8, #f24c4c);
 	height:100%;
 }
 
@@ -57,14 +57,30 @@ article {
 	transform:translateX(5%);
 	height:80%;
 	position:absolute;
-	overflow:scroll;
-	overflow-x:hidden;
 }
 
 .inside {
 	padding:5%;
+	overflow:scroll;
+	overflow-x:hidden;
+	height:79%;
 }
 
+.header {
+	background:#f2f2f2;
+	height:15%;
+	width:100%;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align:center;
+	border-bottom:#eaeaea solid 1px;
+}
+
+.header h2 {
+	font-family:Helvetica;
+	font-size:24px;
+}
 p {
 	background:rgb(0, 122, 255);
 	padding:5%;
@@ -79,7 +95,7 @@ p {
 
 p:last-child{
 	background:#E5E5EA;
-	width:8%;
+	width:5%;
 	margin: 10px auto auto 0;
 	color:#333;
 }
