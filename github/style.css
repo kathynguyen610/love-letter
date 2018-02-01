@@ -70,10 +70,16 @@ p {
 	padding:5%;
 	color:#fff;
 	font-family:'Helvetica';
-	font-size:14px;
-	line-height:1.6em;
+	font-size:12px;
+	line-height:1.4em;
 	letter-spacing:.1em;
 	border-radius:1em;
 	width:70%;
-	margin: 10px 0 auto auto;
-	}
+	margin: 10px 0 auto auto;	}
+
+p:last-child{
+	background:#E5E5EA;
+	width:8%;
+	margin: 10px auto auto 0;
+	color:#333;
+}
