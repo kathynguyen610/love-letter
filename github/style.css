@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans|Inconsolata:400,700');
+
+@font-face {
+font-family: Helvetica;
+src: url('fonts/HelveticaNeue.ttf') format('truetype');
+font-weight:normal;
+font-style:normal;
+}
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -54,3 +60,20 @@ article {
 	overflow:scroll;
 	overflow-x:hidden;
 }
+
+.inside {
+	padding:5%;
+}
+
+p {
+	background:rgb(0, 122, 255);
+	padding:5%;
+	color:#fff;
+	font-family:'Helvetica';
+	font-size:14px;
+	line-height:1.6em;
+	letter-spacing:.1em;
+	border-radius:1em;
+	width:70%;
+	margin: 10px 0 auto auto;
+	}
